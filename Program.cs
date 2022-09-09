@@ -16,13 +16,15 @@ if(c > max) max = c;
 Console.WriteLine(max);
 
 // Задача №6
-Console.WriteLine("Введи число");
-Array [5; 3; 10; 1];
-size = 4;
-ind = 0;
-int Even_number = 0;
-if(Array[ind] %2 = 0)
+int number;
+number = int.Parse(Console.ReadLine());
+int temp = number % 2;
+bool result = temp == 0;
+if(result)
 {
-    ind = ind + 1;
+    Console.WriteLine("число четное");
 }
-Console.WriteLine();
+else
+{
+    Console.WriteLine("число нечетное");
+}
